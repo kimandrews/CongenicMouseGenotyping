@@ -61,7 +61,7 @@ do
 samtools stats $f > $f.stats &
 done
 ```
-### Mapping quality assessment  
+### Quality assessment of mapping  
 
 ```
 multiqc -d ./02-mapped/ -i Mapping -o ./02-mapped/
@@ -106,7 +106,7 @@ Outputs:
 Rscript 05-analyze_VCF_part2.R
 ```
 Outputs:  
-*  Genotype_Summary_Table.tsv
+*  Ancestry proportions for each sample: Genotype_Summary_Table.tsv
 
 
 
