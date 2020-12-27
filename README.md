@@ -94,7 +94,7 @@ ls -la ./02-mapped/*.bam > samples_bam.txt
 ### Analyze VCF
 ```
 mkdir -p 04-deliverables
-Rscript 04-analyze_VCF_ka.R
+Rscript 04-analyze_VCF.R
 ```
 Outputs:   
 * Genotypes for each sample and SNP: genotype.tsv  
@@ -103,7 +103,7 @@ Outputs:
 * List of poorly performing SNPs (SNPs with coverage < 5 in more than 30 samples): poor_targets.tsv  
 
 ```
-Rscript 05-analyze_VCF_part2.R
+Rscript 05-GenotypeSummary.R
 ```
 Outputs:  
 *  Ancestry proportions for each sample: Genotype_Summary_Table.tsv
