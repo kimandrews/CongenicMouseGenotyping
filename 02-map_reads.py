@@ -3,7 +3,7 @@ import os
 from os.path import join as jp
 
 mapping = open("02-mapping_commands.sh", 'w')
-ref = './ref/MM10_combined.fasta'
+ref = './ref/reference.fasta'
 out_prefix = './02-mapped/'
 os.system('mkdir -p 02-mapped')
 

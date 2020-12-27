@@ -5,7 +5,7 @@ from os.path import join as jp
 
 os.system("mkdir -p 03-callvariants")
 
-ref = './ref/MM10_combined.fasta'
+ref = './ref/referece.fasta'
 gatk = 'gatk --java-options "-Xmx4g"'
 bed = 'ST2181G_1_target_ST2181G_1_2053-noextend.bed'
 

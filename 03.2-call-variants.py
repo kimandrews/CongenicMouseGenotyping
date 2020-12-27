@@ -2,7 +2,7 @@ from glob import glob
 import os
 from os.path import join as jp
 
-ref = './ref/MM10_combined.fasta'
+ref = './ref/reference.fasta'
 gatk = 'gatk --java-options "-Xmx4g"'
 bed = 'ST2181G_1_target_ST2181G_1_2053-noextend.bed'
 

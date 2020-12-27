@@ -30,8 +30,8 @@
 * 05-GenotypeSummary.R  
 
 ### Other Files
-* Raw fastq.gz files, stored in ./00-RawData
-* Reference genome (indexed with BWA), stored as ./ref/MM10_combined.fasta
+* Raw fastq.gz files, demultiplexed by sample and stored in ./00-RawData
+* Reference genome (indexed with BWA), stored as ./ref/reference.fasta
 * Bed file of SNP targets: ST2181G_1_target_ST2181G_1_2053-noextend.bed  
 * Illumina adapter sequences: adapters.fa  
 
