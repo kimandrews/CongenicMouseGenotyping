@@ -2,6 +2,8 @@
 
 ### Analyses implemented in the following study:
 
+Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, New DD, Fagnan MW, Luckhart S. A new SNP genotyping assay for speed congenics: combining flexibility, affordability, and power. In review.
+
 ## Requirements:
 ### Programs
 * Python v.2.7
