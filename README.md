@@ -43,7 +43,7 @@ Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, New DD, Fagnan MW, Luckhart S
 
 ```
 mkdir -p 00-fastqc
-fastqc -t 60 -o ./00-fastqc ./00-RawData/*
+fastqc -o ./00-fastqc ./00-RawData/*
 multiqc -i fastqc ./00-fastqc/
 ```
 ### Cleaning
