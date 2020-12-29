@@ -4,7 +4,7 @@
 
 Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, New DD, Fagnan MW, Luckhart S. A new SNP genotyping assay for speed congenics: combining flexibility, affordability, and power. In review.
 
-## Requirements:
+## Requirements
 ### Programs
 * Python v.2.7
 * Fastqc
@@ -56,17 +56,17 @@ bash 01-cleaning_commands.sh
 python 02-map_reads.py
 bash 02-mapping_commands.sh
 ```
-### Build samtools stats for all files
+### Quality assessment of mapping  
+
+```
+multiqc -d ./02-mapped/ -i Mapping -o ./02-mapped/
+```
+### Build samtools stats for all bam files
 ```
 for f in ./02-mapped/*.bam
 do
 samtools stats $f > $f.stats &
 done
-```
-### Quality assessment of mapping  
-
-```
-multiqc -d ./02-mapped/ -i Mapping -o ./02-mapped/
 ```
 ### Index all bam files
 ```
