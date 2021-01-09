@@ -9,7 +9,7 @@ Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, New DD, Fagnan MW, Luckhart S
 * Python v.2.7
 * Fastqc
 * MultiQC
-* HTStream
+* HTStream v1.1.0
 * BWA v.0.7.17
 * Samtools v.1.5 
 * GATK v.4.1.3.0 
