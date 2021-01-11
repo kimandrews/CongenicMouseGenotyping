@@ -2,14 +2,14 @@
 
 ### Analyses implemented in the following study:
 
-Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, New DD, Fagnan MW, Luckhart S. A new SNP genotyping assay for speed congenics: combining flexibility, affordability, and power. In review.
+Andrews KR, Hunter SS, Torrevillas BK, Cespedes N, Garrison SM, Strickland J, Wagers D, Hansten G, New DD, Fagnan MW, Luckhart S. A new mouse SNP genotyping assay for speed congenics: combining flexibility, affordability, and power. In review.
 
 ## Requirements
 ### Programs
 * Python v.2.7
 * Fastqc
 * MultiQC
-* HTStream v1.1.0
+* HTStream v.1.1.0
 * BWA v.0.7.17
 * Samtools v.1.5 
 * GATK v.4.1.3.0 
